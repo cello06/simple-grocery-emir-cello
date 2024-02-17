@@ -60,4 +60,11 @@ public class RegisterStepDefs extends BaseStep {
     }
 
 
+    @When("User sends a request with wrong end-points.")
+    public void userSendsARequestWithWrongEndPoints() {
+        response = RestAssured.given()
+                .spec(request)
+                .when()
+                .get("wrong.endpoint");
+    }
 }

@@ -6,6 +6,12 @@ Feature: Client registration
     Then The status code should be 201
     And The token should not be null or empty
     Examples:
-      | name | email           |
-      | Emir | emo25@gmail.com |
+      | name | email            |
+      | Emir | emo253@gmail.com |
+
+
+  Scenario: Test client registration with invalid endpoint
+    Given The user is on the correct baseUri
+    When User sends a request with wrong end-points.
+    Then The status code should be 404
 
