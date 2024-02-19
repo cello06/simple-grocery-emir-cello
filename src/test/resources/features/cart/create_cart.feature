@@ -1,3 +1,4 @@
+@create_a_cart
 Feature:Creating a cart
   Scenario: Test creating a cart functionality
     Given The user is on the correct baseUri

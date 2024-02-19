@@ -5,6 +5,8 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.cucumber.java.en.And;
 import io.restassured.RestAssured;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.assertj.core.api.Assertions;
 import pojo.response.GetAllOrders;
 
@@ -12,7 +14,9 @@ import java.util.List;
 
 
 public class GetAllOrdersStepDefs extends BaseStep{
+    private static final Logger LOGGER = LogManager.getLogger(GetAllOrdersStepDefs.class);
     ObjectMapper mapper = new ObjectMapper();
+
     @And("The user sends GET request to get all orders end point")
     public void theUserSendsGETRequestToGetAllOrdersEndPoint() {
         response = RestAssured.given()
@@ -21,6 +25,7 @@ public class GetAllOrdersStepDefs extends BaseStep{
                 .when()
                 .get(getAllOrdersEndpoint);
 
+        LOGGER.info("The user sends GET request to get all orders end point");
     }
 
     @And("The order ids, item ids and customer names are true")
@@ -37,5 +42,6 @@ public class GetAllOrdersStepDefs extends BaseStep{
                     Assertions.assertThat(items.contains(getAllOrder.getItems()[actualOrders.indexOf(getAllOrder)].getId())).isTrue();
                 }
         );
+        LOGGER.debug("The order ids, item ids and customer names are true");
     }
 }

@@ -1,3 +1,4 @@
+@get_all_orders
 Feature: Getting all orders
   Scenario Outline: Test Get all orders method functionality
     Given The user is on the correct baseUri

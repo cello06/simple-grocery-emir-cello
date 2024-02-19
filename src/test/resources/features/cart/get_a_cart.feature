@@ -1,3 +1,4 @@
+@get_a_cart
 Feature:Getting a cart
   Scenario: Test get a cart method functionality
     Given The user is on the correct baseUri

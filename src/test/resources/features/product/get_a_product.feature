@@ -1,3 +1,4 @@
+@get_a_product
 Feature: Getting a product
   Scenario: Test get a product method functionality
     Given The user is on the correct baseUri

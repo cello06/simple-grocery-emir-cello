@@ -1,3 +1,4 @@
+@update_an_order
 Feature: Updating an order
   Scenario Outline: Test Update order method functionality
     Given The user is on the correct baseUri

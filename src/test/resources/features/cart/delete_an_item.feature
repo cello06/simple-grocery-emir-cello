@@ -1,3 +1,4 @@
+@delete_an_item
 Feature: Delete item
   Scenario: Delete an item method functionality
     Given The user is on the correct baseUri

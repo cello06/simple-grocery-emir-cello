@@ -1,3 +1,4 @@
+@creating_an_order
 Feature: Creating an order
 
   Scenario Outline: Test create an order method functionality

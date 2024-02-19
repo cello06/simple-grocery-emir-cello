@@ -5,6 +5,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.When;
 import io.restassured.RestAssured;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.assertj.core.api.Assertions;
 import pojo.response.GetAllProducts;
 
@@ -12,6 +14,8 @@ import java.io.File;
 import java.util.List;
 
 public class GetAllProductsStepDefs extends BaseStep {
+
+    private static final Logger LOGGER = LogManager.getLogger(GetAllProductsStepDefs.class);
     //TestContext testContext = new TestContext();
 
     ObjectMapper mapper = new ObjectMapper();
@@ -22,14 +26,12 @@ public class GetAllProductsStepDefs extends BaseStep {
                 .spec(request)
                 .when()
                 .get(getAllProductsEndpoint);
-
+        LOGGER.info("The user sends GET request to the get all products endpoint");
         //testContext.setResponse(response);
     }
 
     @And("The product list should contain all products")
     public void theProductListShouldContainAllProducts() throws Exception {
-
-
         List<GetAllProducts> actualProductsList = mapper.readValue(response.asString(), new TypeReference<>() {
         });
 
@@ -50,6 +52,6 @@ public class GetAllProductsStepDefs extends BaseStep {
 
                 }
         );
-
+        LOGGER.debug("The product list contains all products");
     }
 }

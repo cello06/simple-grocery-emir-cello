@@ -1,3 +1,4 @@
+@get_items_in_cart
 Feature: Getting items in cart
   Scenario: Test get items in cart method functionality
     Given The user is on the correct baseUri

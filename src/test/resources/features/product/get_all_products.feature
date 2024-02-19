@@ -1,3 +1,4 @@
+@get_all_products
 Feature: Getting all product
   Scenario: Test get all products method functionality
     Given The user is on the correct baseUri

@@ -78,3 +78,57 @@
 17-02-2024 15:28:24.532 [main] INFO  utils.ConfigManager - Application properties loaded successfully.
 17-02-2024 15:33:08.890 [main] INFO  utils.ConfigManager - Application properties loaded successfully.
 17-02-2024 15:36:39.511 [main] INFO  utils.ConfigManager - Application properties loaded successfully.
+18-02-2024 12:14:31.507 [main] INFO  utils.ConfigManager - Application properties loaded successfully.
+18-02-2024 12:49:02.474 [main] INFO  utils.ConfigManager - Application properties loaded successfully.
+18-02-2024 12:55:39.444 [main] INFO  utils.ConfigManager - Application properties loaded successfully.
+18-02-2024 12:57:01.404 [main] INFO  utils.ConfigManager - Application properties loaded successfully.
+18-02-2024 12:58:30.328 [main] INFO  utils.ConfigManager - Application properties loaded successfully.
+18-02-2024 13:03:41.349 [main] INFO  utils.ConfigManager - Application properties loaded successfully.
+18-02-2024 18:22:16.118 [main] INFO  utils.ConfigManager - Application properties loaded successfully.
+18-02-2024 18:22:26.937 [main] INFO  utils.ConfigManager - Application properties loaded successfully.
+18-02-2024 18:22:51.946 [main] INFO  utils.ConfigManager - Application properties loaded successfully.
+18-02-2024 18:23:50.695 [main] INFO  utils.ConfigManager - Application properties loaded successfully.
+18-02-2024 18:24:16.575 [main] INFO  utils.ConfigManager - Application properties loaded successfully.
+18-02-2024 18:24:42.827 [main] INFO  utils.ConfigManager - Application properties loaded successfully.
+18-02-2024 18:25:15.430 [main] INFO  utils.ConfigManager - Application properties loaded successfully.
+18-02-2024 18:28:33.930 [main] INFO  utils.ConfigManager - Application properties loaded successfully.
+18-02-2024 18:29:01.224 [main] INFO  utils.ConfigManager - Application properties loaded successfully.
+19-02-2024 10:11:36.150 [main] INFO  utils.ConfigManager - Application properties loaded successfully.
+19-02-2024 10:31:23.155 [main] INFO  utils.ConfigManager - Application properties loaded successfully.
+19-02-2024 10:32:11.688 [main] INFO  utils.ConfigManager - Application properties loaded successfully.
+19-02-2024 10:38:56.593 [main] INFO  utils.ConfigManager - Application properties loaded successfully.
+19-02-2024 10:40:16.007 [main] INFO  utils.ConfigManager - Application properties loaded successfully.
+19-02-2024 10:40:30.557 [main] INFO  utils.ConfigManager - Application properties loaded successfully.
+19-02-2024 11:17:52.766 [main] INFO  utils.ConfigManager - Application properties loaded successfully.
+19-02-2024 11:17:53.137 [main] INFO  stepdefinition.RegisterStepDefs - The user is on the correct baseUri
+19-02-2024 11:17:55.343 [main] INFO  stepdefinition.RegisterStepDefs - The user send POST request with clientName and clientEmail to the registration endpoint
+19-02-2024 11:17:56.836 [main] INFO  stepdefinition.CreateCartStepDefs - The user sends POST request to the create a cart endpoint
+19-02-2024 11:17:58.022 [main] INFO  stepdefinition.AddItemToCartStepDefs - The user sends POST request with product id to add item to the cart endpoint
+19-02-2024 11:17:59.131 [main] INFO  stepdefinition.AddItemToCartStepDefs - The user sends POST request with product id to add item to the cart endpoint
+19-02-2024 11:18:00.332 [main] INFO  stepdefinition.AddItemToCartStepDefs - The user sends POST request with product id to add item to the cart endpoint
+19-02-2024 11:18:01.742 [main] INFO  stepdefinition.CreateAnOrderStepDefs - The user sends POST request with customerName to create an order end point
+19-02-2024 11:18:02.626 [main] INFO  stepdefinition.GetASingleOrderStepDefs - The user sends GET request with order id to get a single order end point
+19-02-2024 11:18:03.732 [main] INFO  stepdefinition.UpdateOrderStepDefs - The user sends PATCH request with new newCustomerName to the update order end point
+19-02-2024 11:18:05.451 [main] INFO  stepdefinition.DeleteAnOrderStepDefs - The user sends DELETE request to delete an order endpoint
+19-02-2024 11:21:31.800 [main] INFO  utils.ConfigManager - Application properties loaded successfully.
+19-02-2024 11:21:32.169 [main] INFO  stepdefinition.RegisterStepDefs - The user is on the correct baseUri
+19-02-2024 11:21:34.319 [main] INFO  stepdefinition.RegisterStepDefs - The user send POST request with clientName and clientEmail to the registration endpoint
+19-02-2024 11:21:35.823 [main] INFO  stepdefinition.CreateCartStepDefs - The user sends POST request to the create a cart endpoint
+19-02-2024 11:21:37.102 [main] INFO  stepdefinition.AddItemToCartStepDefs - The user sends POST request with product id to add item to the cart endpoint
+19-02-2024 11:21:38.211 [main] INFO  stepdefinition.AddItemToCartStepDefs - The user sends POST request with product id to add item to the cart endpoint
+19-02-2024 11:21:39.720 [main] INFO  stepdefinition.AddItemToCartStepDefs - The user sends POST request with product id to add item to the cart endpoint
+19-02-2024 11:21:41.302 [main] INFO  stepdefinition.CreateAnOrderStepDefs - The user sends POST request with customerName to create an order end point
+19-02-2024 11:21:42.113 [main] INFO  stepdefinition.GetASingleOrderStepDefs - The user sends GET request with order id to get a single order end point
+19-02-2024 11:21:43.309 [main] INFO  stepdefinition.UpdateOrderStepDefs - The user sends PATCH request with new newCustomerName to the update order end point
+19-02-2024 11:21:45.410 [main] INFO  stepdefinition.DeleteAnOrderStepDefs - The user sends DELETE request to delete an order endpoint
+19-02-2024 11:24:00.528 [main] INFO  utils.ConfigManager - Application properties loaded successfully.
+19-02-2024 11:24:00.899 [main] INFO  stepdefinition.RegisterStepDefs - The user is on the correct baseUri
+19-02-2024 11:24:03.134 [main] INFO  stepdefinition.RegisterStepDefs - The user send POST request with clientName and clientEmail to the registration endpoint
+19-02-2024 11:24:04.800 [main] INFO  stepdefinition.CreateCartStepDefs - The user sends POST request to the create a cart endpoint
+19-02-2024 11:24:06.736 [main] INFO  stepdefinition.AddItemToCartStepDefs - The user sends POST request with product id to add item to the cart endpoint
+19-02-2024 11:24:07.971 [main] INFO  stepdefinition.AddItemToCartStepDefs - The user sends POST request with product id to add item to the cart endpoint
+19-02-2024 11:24:09.234 [main] INFO  stepdefinition.AddItemToCartStepDefs - The user sends POST request with product id to add item to the cart endpoint
+19-02-2024 11:24:10.704 [main] INFO  stepdefinition.CreateAnOrderStepDefs - The user sends POST request with customerName to create an order end point
+19-02-2024 11:24:11.602 [main] INFO  stepdefinition.GetASingleOrderStepDefs - The user sends GET request with order id to get a single order end point
+19-02-2024 11:24:12.806 [main] INFO  stepdefinition.UpdateOrderStepDefs - The user sends PATCH request with new newCustomerName to the update order end point
+19-02-2024 11:24:14.733 [main] INFO  stepdefinition.DeleteAnOrderStepDefs - The user sends DELETE request to delete an order endpoint

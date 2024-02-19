@@ -1,3 +1,4 @@
+@delete_an_order
 Feature: Deleting an order
   Scenario Outline: Test delete an order method functionality
     Given The user is on the correct baseUri

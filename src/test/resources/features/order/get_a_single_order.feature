@@ -1,3 +1,4 @@
+@get_a_single_order
 Feature: Getting a single order
   Scenario Outline: Test get a single order method functionality
     Given The user is on the correct baseUri

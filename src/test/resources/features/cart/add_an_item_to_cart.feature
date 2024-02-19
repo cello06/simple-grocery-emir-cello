@@ -1,3 +1,4 @@
+@add_an_item_to_cart
 Feature: Adding a item to cart
   Scenario: Test add an item to cart method functionality
     Given The user is on the correct baseUri
