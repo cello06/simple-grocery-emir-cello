@@ -132,3 +132,36 @@
 19-02-2024 11:24:11.602 [main] INFO  stepdefinition.GetASingleOrderStepDefs - The user sends GET request with order id to get a single order end point
 19-02-2024 11:24:12.806 [main] INFO  stepdefinition.UpdateOrderStepDefs - The user sends PATCH request with new newCustomerName to the update order end point
 19-02-2024 11:24:14.733 [main] INFO  stepdefinition.DeleteAnOrderStepDefs - The user sends DELETE request to delete an order endpoint
+19-02-2024 11:28:49.863 [main] INFO  utils.ConfigManager - Application properties loaded successfully.
+19-02-2024 11:28:50.208 [main] INFO  stepdefinition.RegisterStepDefs - The user is on the correct baseUri
+19-02-2024 11:28:52.407 [main] INFO  stepdefinition.RegisterStepDefs - The user send POST request with clientName and clientEmail to the registration endpoint
+19-02-2024 11:28:54.245 [main] INFO  stepdefinition.CreateCartStepDefs - The user sends POST request to the create a cart endpoint
+19-02-2024 11:28:55.617 [main] INFO  stepdefinition.AddItemToCartStepDefs - The user sends POST request with product id to add item to the cart endpoint
+19-02-2024 11:28:58.004 [main] INFO  stepdefinition.AddItemToCartStepDefs - The user sends POST request with product id to add item to the cart endpoint
+19-02-2024 11:28:59.315 [main] INFO  stepdefinition.AddItemToCartStepDefs - The user sends POST request with product id to add item to the cart endpoint
+19-02-2024 11:29:01.018 [main] INFO  stepdefinition.CreateAnOrderStepDefs - The user sends POST request with customerName to create an order end point
+19-02-2024 11:29:01.854 [main] INFO  stepdefinition.GetASingleOrderStepDefs - The user sends GET request with order id to get a single order end point
+19-02-2024 11:29:03.093 [main] INFO  stepdefinition.UpdateOrderStepDefs - The user sends PATCH request with new newCustomerName to the update order end point
+19-02-2024 11:29:05.014 [main] INFO  stepdefinition.DeleteAnOrderStepDefs - The user sends DELETE request to delete an order endpoint
+19-02-2024 11:29:44.806 [main] INFO  utils.ConfigManager - Application properties loaded successfully.
+19-02-2024 11:29:45.181 [main] INFO  stepdefinition.RegisterStepDefs - The user is on the correct baseUri
+19-02-2024 11:29:47.228 [main] INFO  stepdefinition.RegisterStepDefs - The user send POST request with clientName and clientEmail to the registration endpoint
+19-02-2024 11:29:49.030 [main] INFO  stepdefinition.CreateCartStepDefs - The user sends POST request to the create a cart endpoint
+19-02-2024 11:29:50.227 [main] INFO  stepdefinition.AddItemToCartStepDefs - The user sends POST request with product id to add item to the cart endpoint
+19-02-2024 11:29:51.589 [main] INFO  stepdefinition.AddItemToCartStepDefs - The user sends POST request with product id to add item to the cart endpoint
+19-02-2024 11:29:52.816 [main] INFO  stepdefinition.AddItemToCartStepDefs - The user sends POST request with product id to add item to the cart endpoint
+19-02-2024 11:29:55.402 [main] INFO  stepdefinition.CreateAnOrderStepDefs - The user sends POST request with customerName to create an order end point
+19-02-2024 11:29:56.316 [main] INFO  stepdefinition.GetASingleOrderStepDefs - The user sends GET request with order id to get a single order end point
+19-02-2024 11:29:57.582 [main] INFO  stepdefinition.UpdateOrderStepDefs - The user sends PATCH request with new newCustomerName to the update order end point
+19-02-2024 11:29:59.717 [main] INFO  stepdefinition.DeleteAnOrderStepDefs - The user sends DELETE request to delete an order endpoint
+19-02-2024 11:31:08.740 [main] INFO  utils.ConfigManager - Application properties loaded successfully.
+19-02-2024 11:31:08.743 [main] INFO  stepdefinition.hooks.Hooks - ::::::::::::::: TEST INFORMARION :::::::::::::::
+19-02-2024 11:31:08.743 [main] INFO  stepdefinition.hooks.Hooks - Executing scenario: Test all method of simple grocery API functionality
+19-02-2024 11:31:09.110 [main] INFO  stepdefinition.RegisterStepDefs - The user is on the correct baseUri
+19-02-2024 11:31:10.807 [main] INFO  stepdefinition.RegisterStepDefs - The user send POST request with clientName and clientEmail to the registration endpoint
+19-02-2024 11:31:11.158 [main] ERROR stepdefinition.hooks.Hooks - Scenario failed! Logging response body for failed scenario: Test all method of simple grocery API functionality
+19-02-2024 11:31:11.163 [main] ERROR stepdefinition.hooks.Hooks - {
+    "error": "API client already registered. Try a different email."
+}
+19-02-2024 11:31:11.163 [main] INFO  stepdefinition.hooks.Hooks - Finished scenario: Test all method of simple grocery API functionality
+19-02-2024 11:31:11.163 [main] INFO  stepdefinition.hooks.Hooks - ::::::::::::::::::::::::::::::::::::::::::::::::

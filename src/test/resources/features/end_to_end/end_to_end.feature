@@ -35,5 +35,5 @@ Feature: End to end test of simple grocery API
     Then The status code should be 204
     And Verify that the order is successfully deleted
     Examples:
-      | name  | email                 |
-      | CELLO | cellooo0006@gmail.com |
+      | name  | email                    |
+      | CELLO | cellooo0033006@gmail.com |
